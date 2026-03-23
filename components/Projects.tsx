@@ -77,16 +77,16 @@ export function Projects() {
   return (
     <>
       <ProjectCard
-        title="SMARTRENT: An Integrated Boarders and Rental Management System"
-        description="is a web-based platform that allows users to easily view and search available rooms or apartments for monthly or long-term stays. Property owners can upload room or apartment pictures, descriptions, and location, providing boarders with clear information to make informed choices. The system simplifies the rental process by making property details accessible and easy to browse, enhancing convenience for both owners and boarders."
-        tech={['React', 'TypeScript', 'ClickHouse', 'Go']}
-        gradient="bg-gradient-to-r from-blue-400 to-cyan-400"
-        github="#"
-        live="#"
-        delay={0.35}
-        className="col-span-1 md:col-span-2"
-        id="projects"
-      />
+  title="SMARTRENT: An Integrated Boarders and Rental Management System"
+  description="..."
+  tech={['React', 'TypeScript', 'ClickHouse', 'Go']}
+  gradient="bg-gradient-to-r from-blue-400 to-cyan-400"
+  github="https://github.com/manueltelleros-alt/manuel-portfolio" // ✅ replace this
+  live="https://your-live-demo-link.com" // optional
+  delay={0.35}
+  className="col-span-1 md:col-span-2"
+  id="projects"
+/>
 
     </>
   )
