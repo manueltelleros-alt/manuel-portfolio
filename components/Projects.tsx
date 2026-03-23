@@ -89,8 +89,8 @@ export function Projects() {
       />
       <ProjectCard
         title="Lumina Editor"
-        description="Block-based rich text editor with real-time collaboration."
-        tech={['Next.js', 'ProseMirror', 'Yjs']}
+        description="Capstone project: SMARTRENT: An Integrated Smart Home Rental Management System"
+        tech={['MySQL', 'PHP', 'VISUAL STUDIO CODE']}
         gradient="bg-gradient-to-r from-violet-400 to-purple-400"
         github="#"
         live="#"
@@ -105,16 +105,6 @@ export function Projects() {
         github="#"
         live="#"
         delay={0.45}
-        className="col-span-1 md:col-span-2"
-      />
-      <ProjectCard
-        title="Orbit CLI"
-        description="Command-line tool for managing multi-cloud deployments with ease."
-        tech={['Rust', 'AWS SDK', 'Docker']}
-        gradient="bg-gradient-to-r from-amber-400 to-orange-400"
-        github="#"
-        live="#"
-        delay={0.5}
         className="col-span-1 md:col-span-2"
       />
     </>

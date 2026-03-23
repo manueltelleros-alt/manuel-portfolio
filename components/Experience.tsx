@@ -23,43 +23,39 @@ export function Experience() {
           {/* Latest Role */}
           <div className="relative pl-4 border-l-2 border-gray-200">
             <div className="absolute -left-[5px] top-1 w-2 h-2 rounded-full bg-gray-900" />
-            <p className="text-xs text-gray-400 font-medium">2024 — Present</p>
+            <p className="text-xs text-gray-400 font-medium">Capstone Project</p>
             <h3 className="text-sm font-semibold text-gray-900 mt-1">
-              Senior Frontend Developer
+              Description
             </h3>
-            <p className="text-sm text-gray-600">Freelance / Next.js Projects</p>
             <p className="text-xs text-gray-500 mt-1.5 leading-relaxed">
-              Lead developer on multiple Next.js apps with SSR and SSG.
-              Optimized page load times by 50% and implemented scalable
-              component libraries.
+              Developed SmartRent, a comprehensive web-based system designed to streamline the management of boarding houses and rental properties. The system integrates tenant management, room allocation, payment tracking, and reservation handling into a single platform, improving operational efficiency for property owners.
             </p>
           </div>
 
           {/* Previous Role */}
           <div className="relative pl-4 border-l-2 border-gray-200">
             <div className="absolute -left-[5px] top-1 w-2 h-2 rounded-full bg-gray-400" />
-            <p className="text-xs text-gray-400 font-medium">2022 — 2024</p>
             <h3 className="text-sm font-semibold text-gray-900 mt-1">
-              Next.js Developer
+              Technologies Used
             </h3>
-            <p className="text-sm text-gray-600">Private Startup Projects</p>
             <p className="text-xs text-gray-500 mt-1.5 leading-relaxed">
-              Built dynamic dashboards and integrated API routes in Next.js.
-              Implemented TypeScript and edge functions for better performance.
+              Frontend: HTML, CSS, Tailwind CSS, React / Next.js
+              Backend: PHP / Node.js (depending on your stack)
+              Database: MySQL
+              Tools: Git, GitHub, Nodemailer / SMTP services
             </p>
           </div>
 
           {/* First Role */}
           <div className="relative pl-4 border-l-2 border-gray-200">
             <div className="absolute -left-[5px] top-1 w-2 h-2 rounded-full bg-gray-300" />
-            <p className="text-xs text-gray-400 font-medium">2020 — 2022</p>
             <h3 className="text-sm font-semibold text-gray-900 mt-1">
-              Frontend Developer
+              Key Achievements
             </h3>
-            <p className="text-sm text-gray-600">Personal Projects & Learning</p>
             <p className="text-xs text-gray-500 mt-1.5 leading-relaxed">
-              Learned Next.js fundamentals. Built and deployed several
-              full-stack apps with Next.js, TailwindCSS, and Node.js APIs.
+              Reduced manual workload by automating tenant and payment management processes.
+Improved booking efficiency with a seamless online reservation system.
+Delivered a scalable solution suitable for small to medium-sized rental businesses.
             </p>
           </div>
         </div>
