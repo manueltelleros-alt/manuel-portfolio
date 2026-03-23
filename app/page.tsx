@@ -9,7 +9,7 @@ import { Skills } from '@/components/Skills'
 
 export default function Page() {
   return (
-    <div className="min-h-screen bg-[#F8F9FA] text-gray-900">
+    <div className="min-h-screen bg-[#F8F9FA] text-gray-900 border-radius 5px">
       <Navbar />
 
       <main className="max-w-6xl mx-auto px-4 md:px-6 pt-24 pb-12">
@@ -21,7 +21,7 @@ export default function Page() {
     <img 
       src="buddy.jpg" 
       alt="Buddy" 
-      className="rounded-full border-3 border-shadow-500 shadow-lg w-40 h-40 object-cover"
+      className="rounded-full border-1 border-shadow-1500 shadow-lg w-70 h-90 object-cover"
     />
   </a>
 </div>
@@ -51,4 +51,4 @@ export default function Page() {
       </footer>
     </div>
   )
-} 
+}

@@ -77,8 +77,8 @@ export function Projects() {
   return (
     <>
       <ProjectCard
-        title="Nexus Analytics"
-        description="Real-time event tracking and analytics dashboard for SaaS products."
+        title="SMARTRENT: An Integrated Boarders and Rental Management System"
+        description="is a web-based platform that allows users to easily view and search available rooms or apartments for monthly or long-term stays. Property owners can upload room or apartment pictures, descriptions, and location, providing boarders with clear information to make informed choices. The system simplifies the rental process by making property details accessible and easy to browse, enhancing convenience for both owners and boarders."
         tech={['React', 'TypeScript', 'ClickHouse', 'Go']}
         gradient="bg-gradient-to-r from-blue-400 to-cyan-400"
         github="#"
@@ -87,26 +87,7 @@ export function Projects() {
         className="col-span-1 md:col-span-2"
         id="projects"
       />
-      <ProjectCard
-        title="Lumina Editor"
-        description="Capstone project: SMARTRENT: An Integrated Smart Home Rental Management System"
-        tech={['MySQL', 'PHP', 'VISUAL STUDIO CODE']}
-        gradient="bg-gradient-to-r from-violet-400 to-purple-400"
-        github="#"
-        live="#"
-        delay={0.4}
-        className="col-span-1"
-      />
-      <ProjectCard
-        title="Aura UI"
-        description="Minimalist, accessible component library for React applications."
-        tech={['React', 'Tailwind', 'Radix UI']}
-        gradient="bg-gradient-to-r from-rose-400 to-pink-400"
-        github="#"
-        live="#"
-        delay={0.45}
-        className="col-span-1 md:col-span-2"
-      />
+
     </>
   )
 }

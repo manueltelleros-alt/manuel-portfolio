@@ -71,7 +71,7 @@ export function Skills() {
       />
       <SkillCard
         title="Frameworks"
-        skills={['shadcn', 'vercel', 'chatgpt', 'Laravel (PHP)']}
+        skills={['React', 'Node.js', 'Next.js', 'Laravel']}
         icon={<LayersIcon className="w-5 h-5 text-purple-600" />}
         accentColor="bg-purple-100"
         delay={0.2}
@@ -79,7 +79,7 @@ export function Skills() {
       />
       <SkillCard
         title="Tools"
-        skills={['MySQL', 'XAMPP', 'phpAdmin', 'Visual Studio Code', 'Git']}
+        skills={['MySQL', 'XAMPP', 'phpAdmin', 'Visual Studio Code', 'Chatgpt', 'Git']}
         icon={<WrenchIcon className="w-5 h-5 text-emerald-600" />}
         accentColor="bg-emerald-100"
         delay={0.25}
