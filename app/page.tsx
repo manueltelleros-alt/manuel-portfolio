@@ -9,7 +9,7 @@ import { Skills } from '@/components/Skills'
 
 export default function Page() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 via-white to-green-100 text-gray-900 rounded-[5px]">
+    <div className="min-h-screen bg-[#F0FDF4] text-gray-900">
       <Navbar />
 
       <main className="max-w-6xl mx-auto px-4 md:px-6 pt-24 pb-12">
@@ -17,14 +17,14 @@ export default function Page() {
 
           {/* Row 1: Centered Image */}
           <div className="col-span-1 md:col-span-4 flex justify-center items-center my-4">
-  <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-    <img 
-      src="buddy.jpg" 
-      alt="Buddy" 
-      className="rounded-full border-1 border-shadow-1500 shadow-lg w-70 h-90 object-cover"
-    />
-  </a>
-</div>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+              <img 
+                src="buddy.jpg" 
+                alt="Buddy" 
+                className="rounded-full border border-green-300 shadow-lg w-40 h-40 object-cover"
+              />
+            </a>
+          </div>
 
           {/* Row 1: Hero */}
           <Hero />
@@ -33,7 +33,7 @@ export default function Page() {
           <About />
           <Skills />
 
-          {/* Row 3-4: Experience (tall, row-span-2) + Projects */}
+          {/* Row 3-4: Experience + Projects */}
           <Experience />
           <Projects />
 
