@@ -34,8 +34,7 @@ export function Hero() {
             Buddy Custodio
           </h1>
             <p className="mt-6 mb-4 text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-center sm:text-left tracking-wide font-open sans text-lg text-gray-700 flex justify-center">
-            I am a Bachelor of Science in Information Systems (BSIS) student at Sultan Kudarat State University (SKSU) with a strong passion for designing efficient solutions, automating processes, and developing applications that create real-world impact. Through my academic projects and hands-on experience, I have enhanced my ability to adapt to emerging technologies, solve complex problems, and collaborate effectively in team-based environments. My field of study has equipped me with both technical and analytical skills, enabling me to contribute to innovative and practical information system solutions.
-          </p>
+          I am a BSIS student at Sultan Kudarat State University (SKSU) with a passion for building efficient solutions, automating processes, and developing impactful applications. I have gained strong technical and analytical skills through academic projects and hands-on experience, allowing me to adapt to new technologies and work effectively in team environments.
   
           <div className="mt-8 flex flex-wrap justify-center gap-3">
   <a
