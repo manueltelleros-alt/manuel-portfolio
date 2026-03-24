@@ -33,8 +33,7 @@ export function Hero() {
                transform transition duration-700 ease-out hover:scale-105 hover:text-green-500">
             Buddy Custodio
           </h1>
-            <p className="mt-6 mb-4 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-center sm:text-left tracking-wide flex justify-center bg-gradient-to-r from-green-500 via-emerald-500 to-teal-500 bg-clip-text text-transparent leading-relaxed">
-            I am a BSIS student at Sultan Kudarat State University (SKSU) with a passion for building efficient solutions, automating processes, and developing impactful applications. I have gained strong technical and analytical skills through academic projects and hands-on experience, allowing me to adapt to new technologies and work effectively in team environments.
+<p className="mt-6 mb-4 text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-justify tracking-wide bg-gradient-to-r from-green-500 via-emerald-500 to-teal-500 bg-clip-text text-transparent leading-relaxed">            I am a BSIS student at Sultan Kudarat State University (SKSU) with a passion for building efficient solutions, automating processes, and developing impactful applications. I have gained strong technical and analytical skills through academic projects and hands-on experience, allowing me to adapt to new technologies and work effectively in team environments.
           </p>
   
           <div className="mt-8 flex flex-wrap justify-center gap-3">
