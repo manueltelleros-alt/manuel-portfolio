@@ -34,7 +34,8 @@ export function Hero() {
             Buddy Custodio
           </h1>
             <p className="mt-6 mb-4 text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold text-center sm:text-left tracking-wide font-open sans text-lg text-gray-700 flex justify-center">
-          I am a BSIS student at Sultan Kudarat State University (SKSU) with a passion for building efficient solutions, automating processes, and developing impactful applications. I have gained strong technical and analytical skills through academic projects and hands-on experience, allowing me to adapt to new technologies and work effectively in team environments.
+            I am a BSIS student at Sultan Kudarat State University (SKSU) with a passion for building efficient solutions, automating processes, and developing impactful applications. I have gained strong technical and analytical skills through academic projects and hands-on experience, allowing me to adapt to new technologies and work effectively in team environments.
+          </p>
   
           <div className="mt-8 flex flex-wrap justify-center gap-3">
   <a
