@@ -9,35 +9,35 @@ import { Skills } from '@/components/Skills'
 
 export default function Page() {
   return (
-    <div className="min-h-screen bg-[#F8F9FA] text-gray-900 border-radius 5px">
+    <div className="min-h-screen bg-[#F8F9FA] text-gray-800 antialiased">
       <Navbar />
 
       <main className="max-w-6xl mx-auto px-4 md:px-6 pt-24 pb-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-4 md:gap-6">
 
-          {/* Row 1: Centered Image */}
-          <div className="col-span-1 md:col-span-4 flex justify-center items-center my-4">
-  <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-    <img 
-      src="buddy.jpg" 
-      alt="Buddy" 
-      className="rounded-full border-1 border-shadow-1500 shadow-lg w-70 h-90 object-cover"
-    />
-  </a>
-</div>
+          {/* Profile Image */}
+          <div className="col-span-1 md:col-span-4 flex justify-center items-center my-6">
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
+              <img 
+                src="buddy.jpg" 
+                alt="Buddy" 
+                className="rounded-full border-4 border-white shadow-xl w-40 h-40 object-cover hover:scale-105 transition duration-300"
+              />
+            </a>
+          </div>
 
-          {/* Row 1: Hero */}
+          {/* Hero */}
           <Hero />
 
-          {/* Row 2: About + Skills */}
+          {/* About + Skills */}
           <About />
           <Skills />
 
-          {/* Row 3-4: Experience (tall, row-span-2) + Projects */}
+          {/* Experience + Projects */}
           <Experience />
           <Projects />
 
-          {/* Row 5: Contact */}
+          {/* Contact */}
           <Contact />
 
         </div>
@@ -45,8 +45,8 @@ export default function Page() {
 
       {/* Footer */}
       <footer className="max-w-6xl mx-auto px-4 md:px-6 pb-8">
-        <div className="text-center text-xs text-gray-400">
-          © {new Date().getFullYear()} Buddy Custodio
+        <div className="text-center text-sm text-gray-500 tracking-wide">
+          © {new Date().getFullYear()} <span className="font-semibold text-gray-700">Buddy Custodio</span>. All rights reserved.
         </div>
       </footer>
     </div>
