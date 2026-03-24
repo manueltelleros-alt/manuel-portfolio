@@ -9,7 +9,7 @@ import { Skills } from '@/components/Skills'
 
 export default function Page() {
   return (
-    <div className="min-h-screen bg-[#F8F9FA] text-gray-900 border-radius 5px">
+    <div className="min-h-screen bg-gradient-to-br from-green-50 via-white to-green-100 text-gray-900 rounded-[5px]">
       <Navbar />
 
       <main className="max-w-6xl mx-auto px-4 md:px-6 pt-24 pb-12">
