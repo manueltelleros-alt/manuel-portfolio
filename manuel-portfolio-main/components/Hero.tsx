@@ -31,7 +31,7 @@ export function Hero() {
         <div className="relative z-10 p-8 md:p-12 lg:p-16">
           <h1 className="text-4xl md:text-5xl lg:text-6xl text-center font-bold text-gray-900 tracking-tight 
                transform transition duration-700 ease-out hover:scale-105 hover:text-green-500">
-            Buddy Custodio
+            Budd Custodio
           </h1>
             <p className="mt-6 mb-4 sm:text-xl md:text-2xl lg:text-3xl font-bold text-center sm:text-left tracking-wide font-open sans text-gray-700 flex justify-center">
             I am a BSIS student at Sultan Kudarat State University (SKSU) with a passion for building efficient solutions, automating processes, and developing impactful applications. I have gained strong technical and analytical skills through academic projects and hands-on experience, allowing me to adapt to new technologies and work effectively in team environments.
