@@ -21,7 +21,7 @@ export default function Page() {
               <img 
                 src="buddy.jpg" 
                 alt="Buddy" 
-                className="rounded-full border-4 border-white shadow-xl w-50 h-70 object-cover hover:scale-105 transition duration-300"
+                className="rounded-full border-4 border-white shadow-xl w-56 h-56 aspect-square object-cover hover:scale-105 transition duration-300"
               />
             </a>
           </div>
